@@ -7,13 +7,12 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="app.controllers.LoginController">
+<Pane prefHeight="800.0" prefWidth="600.0" styleClass="pane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.LoginController">
    <children>
-      <TextField layoutX="107.0" layoutY="305.0" prefHeight="31.0" prefWidth="376.0" />
-      <TextField layoutX="107.0" layoutY="391.0" prefHeight="31.0" prefWidth="376.0" />
-      <PasswordField layoutX="107.0" layoutY="444.0" prefHeight="31.0" prefWidth="376.0" />
-      <Button layoutX="107.0" layoutY="512.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="376.0" text="Sign in" />
+      <TextField layoutX="104.0" layoutY="309.0" prefHeight="31.0" prefWidth="380.0" promptText="Host" />
+      <TextField layoutX="104.0" layoutY="369.0" prefHeight="31.0" prefWidth="380.0" promptText="Username" />
+      <PasswordField layoutX="104.0" layoutY="423.0" prefHeight="31.0" prefWidth="380.0" promptText="Password" />
+      <Button layoutX="104.0" layoutY="484.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="380.0" styleClass="default-button" text="Sign in" />
       <Label layoutX="15.0" layoutY="747.0" text="By Lupitayoh and Jonathan">
          <font>
             <Font size="12.0" />
@@ -24,6 +23,9 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <Label layoutX="265.0" layoutY="209.0" text="Sign in" />
+      <Label layoutX="265.0" layoutY="209.0" text="Sign in">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
    </children>
 </Pane>
