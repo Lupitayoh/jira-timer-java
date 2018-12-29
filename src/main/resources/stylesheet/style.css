@@ -1,6 +1,7 @@
 
 .pane {
-    -fx-background-color: #eeecdd;
+    -fx-background-color: #fff;
+   /* -fx-background-color: #eeecdd;*/
 }
 
 .default-button {
