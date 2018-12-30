@@ -6,4 +6,5 @@
 
 .default-button {
     -fx-background-color: #79e7de;
+    -fx-font-weight: bold;
 }
